@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body id="home" class="open-left">
+        <div id="offcanvas-left" class="hide">
+            <ul>
+                <li><a href="#top"> Top </a></li>
+                <li><a href="#summary"> Summary </a></li>
+                <li><a href="#contact"> Contact Me </a></li>>
+            </ul>
+        </div>
+        <div class="togglebar">
+            <div class="toggle" onclick="toggleLeft()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div class="center">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#top"> Top </a></li>
+                        <li><a href="#summary"> Summary </a></li>
+                        <li><a href="#contact"> Contact Me </a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section>
+                <main id="top">
+                    <article>
+                        <figure >
+                            <img src="https://i.imgur.com/8enU6hA.jpg" alt="A picture of Connor in Australia."/>
+                            <figcaption>
+                                <h1 style="font-size: 6em"> Blog of Connor Haynes</h1>
+                            </figcaption>
+                        </figure>
+                        <h2 style="font-size: 2em">Introduction</h2>
+                        <hr>
+                        <p>
+                            My name is Connor Haynes, and I am from Richmond, Virginia USA. I attend the University of Virginia and am a double major in Neuroscience and Economics. I hope to attend medical school after college. I am an avid runner and enjoy playing soccer and watching Netflix in my free time. My favorite part of UVA is exploring the food scene and hikes Charlottesville has to offer.
+                        </p>
+                        <p>
+                            I have an older brother, Foster (25), and two older sisters, Barrett (23) and Chloe (23). On breaks from school I live at home with my parents, both of whom are doctors, and my yellow lab Abby (8). My favorite thing to do in Richmond include tubing down the James River, running along Belle Isle, and shopping in Carytown.
+                        </p>
+                        <p>
+                            I am extremely excited to spend 8 weeks in Cape Town this summer. I am a begginner when it comes to coding, but I can't wait to learn a lot. I hope to skydive and hike a lot while in Cape Town. I will be celebrating my 21st birthday in June and hope to do something special for it!
+                        </p>
+                        <p id="summary">
+                            Summary: 20 years old, from Virginia, goes to University of Virginia, 3 siblings and one dog, wants to be a doctor, loves to run and hike.
+                        </p>
+                    </article>
+                </main>
+                <footer>
+                    <section>
+                        <table class="styled">
+                            <tr>
+                                <th colspan="2">Schedule</th>
+                            </tr>
+                            <tr>
+                                <td>class mon-fri</td>
+                                <td>9:30-11:30am</td>
+                            </tr>
+                            <tr>
+                                <td>sat-sun</td>
+                                <td>exploration time</td>
+                            </tr>
+                        </table>
+                        <table class="styled">
+                            <tr>
+                                <th colspan="2">Contact Info</th>
+                            </tr>
+                            <tr>
+                                <td>Cell:</td>
+                                <td>804.337.1238</td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td>cvh4a@virginia.edu</td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section>
+                        <form action="/action_page.php" id="contact">
+                            <legend><b>Contact Me</b></legend>
+                            <input type="text" name="fullname" placeholder="Full name">
+                            <input type="text" name="email" placeholder="Email">
+                            <textarea name="msg" placeholder="Write message here"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </section>
+                </footer>
+            </section>          
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
